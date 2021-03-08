@@ -9,19 +9,14 @@ namespace Torres_de_Hanoi
     class Disco
     {
         
-        public Disco()
+        
+        public Disco( int numero)
         {
-
+            Valor = numero;//asignamos un valor para determinar si el disco es mayor o menor
+           
         }
-        public int Valor {
-            get{
-                return Valor;
-            }
-            set
-            {
-                this.Valor = Valor;
-            } 
-        }
+        public int Valor { get; set; }
+        
         
         
 
